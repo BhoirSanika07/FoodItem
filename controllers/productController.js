@@ -3,7 +3,7 @@ const Product = require('../models/Product');
 // ---- SEED DATA (used to populate DB on first run) ----
 const seedProducts = [
   // SNACKS
-  { name: 'Masala Dosa', description: 'Crispy rice crepe with spiced potato filling, sambar & chutney', price: 89, category: 'Snacks', dietType: 'veg', emoji: '🫓', rating: 4.6, preparationTime: '15 min', tag: 'Popular', isVeg: true },
+  { name: 'Masala Dosa', description: 'Crispy rice crepe with spiced potato filling, sambar & chutney', price: 89, category: 'Snacks', dietType: 'veg', emoji: 'https://tse4.mm.bing.net/th/id/OIP.2nMDNL-epjyA_aypL7XAcQHaEK?pid=Api', rating: 4.6, preparationTime: '15 min', tag: 'Popular', isVeg: true },
   { name: 'Vada Pav', description: "Mumbai's iconic street burger with spiced potato fritter & chutneys", price: 45, category: 'Snacks', dietType: 'veg', emoji: '🍔', rating: 4.4, preparationTime: '10 min', isVeg: true },
   { name: 'Samosa (2 pcs)', description: 'Golden fried pastry with spiced potato & peas filling', price: 40, category: 'Snacks', dietType: 'veg', emoji: '🥟', rating: 4.5, preparationTime: '10 min', isVeg: true },
   { name: 'Chicken Tikka Wrap', description: 'Juicy tandoor chicken tikka rolled in soft rumali roti with mint chutney', price: 149, category: 'Snacks', dietType: 'nonveg', emoji: '🌯', rating: 4.7, preparationTime: '18 min', tag: "Chef's Pick", isVeg: false },
