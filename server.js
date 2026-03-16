@@ -40,6 +40,13 @@ app.get('/api/health', (req, res) => {
   });
 });
 
+// new app.get added
+// ---- ROOT ROUTE ----
+app.get('/', (req, res) => {
+  res.send('🍔 Bhojan Food API is running successfully!');
+});
+
+
 // ---- 404 HANDLER ----
 app.use((req, res) => {
   res.status(404).json({ success: false, message: `Route ${req.originalUrl} not found` });
